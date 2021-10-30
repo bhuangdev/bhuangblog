@@ -14,15 +14,15 @@ module.exports = {
             { 
                 text:'前端基础', 
                 items:[
-                    { text:'historynotes',link:'/frontendbase/historynotes'},
+                    { text:'历史笔记',link:'/frontendbase/historynotes'},
                     { text:'待更新',link:'/frontendbase/blank'},
                 ]
             },
             { 
                 text:'前端框架',
                 items:[
-                    { text:'手撕vue源码-01',link:'/frontendframe/手撕vue源码-01'},
-                    { text:'historynotes',link:'/frontendframe/historynotes'},
+                    { text:'手撕vue源码系列-01',link:'/frontendframe/手撕vue源码-01'},
+                    { text:'历史笔记',link:'/frontendframe/historynotes'},
                     { text:'待更新',link:'/frontendframe/blank'},
                 ]
             },
