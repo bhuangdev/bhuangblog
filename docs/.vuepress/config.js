@@ -43,5 +43,7 @@ module.exports = {
             { text:'GitHub', link:'https://github.com/bhuangdev'},
         ],
         sidebar:'auto',
+        sidebarDepth: 2,
+        lastUpdated: 'Last Updated'
     }
 };
