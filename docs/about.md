@@ -1,10 +1,12 @@
-# 联系方式
+# 关于我
+
+## 联系方式
 - 手机：17695927538
 - Email：bhuangdev@outlook.com
 - 微信号：17695927538
 
 
-# 个人信息
+## 个人信息
 
  - 黄斌/男/1994 
  - 本科/天津工业大学
@@ -12,7 +14,7 @@
  - Github：https://github.com/bhuangdev
 
 
-# 技能清单
+## 技能清单
 
 擅长：
 - 前端开发：Vue，Element-ui，HTML，CSS，JavaScript
