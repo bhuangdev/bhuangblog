@@ -1,9 +1,11 @@
-# 动态切换组件
+# 历史前端框架笔记
+
+## 动态切换组件
 
 https://blog.csdn.net/liangmengbk/article/details/85013547
 
 
-# vue页面组件化-父子组件传值
+## vue页面组件化-父子组件传值
 
 > 页面组件化涉及到父子组件传值的问题，需要用到props和emit
 
@@ -71,7 +73,7 @@ handleClose() {
 }
 ```
 
-# table组件 写columns 属性时render自定义内容
+## table组件 写columns 属性时render自定义内容
 
 ```
 prop: "action",
@@ -103,7 +105,7 @@ render: (createElement, params) => {
 
 
 
-# 日期组件
+## 日期组件
 
 - 日期限制
 
@@ -130,12 +132,12 @@ pickerBeginDateAfter: {
 ```
 
 
-# drags
+## drags
 
 https://blog.csdn.net/weixin_41910848/article/details/82218243
 
 
-# 添加和更新调同一个组件时的判断
+## 添加和更新调同一个组件时的判断
 
 ```
 if (this.title == "添加") {
@@ -158,7 +160,7 @@ dialogClose() {
 }
 ```
 
-# el-date-picker
+## el-date-picker
 
 initDefaultDate() {
 
@@ -265,7 +267,7 @@ changeDate() {
 
 
 
-# el-table分页
+## el-table分页
 
 > 注意：total一定要赋值
 
@@ -304,7 +306,7 @@ current_change: function (currentPage) {
 }
 ```
 
-# el-table 行内加form rule验证
+## el-table 行内加form rule验证
 
 ```
 <el-table-column :label="SCORE" align="center">
@@ -323,7 +325,7 @@ current_change: function (currentPage) {
 ```
 
 
-# forEach filter
+## forEach filter
 
 ```
 schedulingListTemp.forEach((element) => {
@@ -361,7 +363,7 @@ schedulingListTemp.forEach((element) => {
 
 
 
-# 富文本编辑器
+## 富文本编辑器
 
 - 用
 
@@ -612,7 +614,7 @@ export default {
 
 
 
-# 组件强制刷新技巧
+## 组件强制刷新技巧
 
 >  在实际开发过程中经常会遇到动态取值之后vue组件不能刷新的问题，解决办法就是利用v-if，改变状态，强制刷新
 
@@ -639,7 +641,7 @@ this.$nextTick(() => {
 
 
 
-# 导入导出
+## 导入导出
 
 - 导出
 
@@ -835,7 +837,7 @@ export default {
 
 
 
-# 匹配拼接
+## 匹配拼接
 
 ```
 for (var i = 0; i < _this.patrolPeople.length; i++) {
@@ -852,7 +854,7 @@ for (var i = 0; i < _this.patrolPeople.length; i++) {
 ```
 
 
-# table中列值动态赋样式
+## table中列值动态赋样式
 
 - 根据每一列alert0show,alert1show,alert3show的值来确定显示哪个图标
 - 根据每一列patrolAlarm的值来设定文字的样式  （动态赋class,class里定义样式）

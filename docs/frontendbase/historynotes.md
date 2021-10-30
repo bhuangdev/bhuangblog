@@ -1,4 +1,6 @@
-# 滚动条与图片移动
+# 历史前端基础知识笔记
+
+## 滚动条与图片移动
 
 ```
 <html>
@@ -45,7 +47,7 @@
 </html>
 ```
 
-# 全局存储变量
+## 全局存储变量
 
 - 存
 
@@ -59,7 +61,7 @@ localStorage.setItem('存储的名字', 要存的数据)
 var xxx - localStorage.存储的名字
 ```
 
-# 数组里按时间排序
+## 数组里按时间排序
 
 1. 把数组里的时间参数转化成值
 
@@ -81,7 +83,7 @@ var xxx - localStorage.存储的名字
        }
    ```
 
-# 不同分辨率动态赋值
+## 不同分辨率动态赋值
 
 ```
 if (window.innerWidth > 1440) {
@@ -93,7 +95,7 @@ if (window.innerWidth > 1440) {
 dialogwidth:""
 ```
 
-# table批量删除选中行
+## table批量删除选中行
 
 ```
 let rows = this.$refs.tableRefName.getSelectAllRows();
@@ -102,7 +104,7 @@ rows.forEach(item => ids.push(item.id));
 api.delete(ids,response=>{})
 ```
 
-# 获取当前时间
+## 获取当前时间
 
 ```
 getCurrentDate () {
@@ -154,7 +156,7 @@ var tomrrowDay = new Date(
 ```
 
 
-# object对象取key和value
+## object对象取key和value
 
 ```
 licenseN = Object.keys(row.action.licenseNumberMap);
@@ -162,7 +164,7 @@ licenseN = Object.keys(row.action.licenseNumberMap);
 ```
 
 
-# 去重
+## 去重
 
 ```
 listUnique(array) {
