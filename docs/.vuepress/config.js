@@ -32,9 +32,9 @@ module.exports = {
                 items:[
                     { text:'常用调试工具和抓包工具',link:'/others/常用调试工具和抓包工具'},
                     { text:'W3C学习',link:'/others/W3C学习'},
-                    { text:'C#笔记',link:'/others/C#笔记'},
+                    { text:'CSharp笔记',link:'/others/CSharp笔记'},
                     { text:'echarts',link:'/others/echarts'},
-                    { text:'echarts&dojo&兼容问题',link:'/others/echarts&dojo&兼容问题'},
+                    { text:'dojo&兼容问题',link:'/others/dojo&兼容问题'},
                     { text:'http网络请求状态码',link:'/others/http网络请求状态码'},
                     { text:'SqlServer',link:'/others/SqlServer'},
                 ]

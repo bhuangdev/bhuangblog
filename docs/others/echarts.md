@@ -3,6 +3,8 @@
 ## ECharts
 缩写来自Enterprise Charts,商业级数据图表,是百度的一个开源的数据可视化工具,一个纯Javascript的图表库
 
+## echarts图表的使用
+https://www.echartsjs.com/en/option.html#title
 
 ## 使用流程：
 	进入官网https://www.echartsjs.com/zh/index.html
