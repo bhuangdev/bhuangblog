@@ -22,8 +22,9 @@ module.exports = {
             { 
                 text:'前端框架',
                 items:[
-                    { text:'手撕vue源码系列-01',link:'/frontendframe/手撕vue源码-01'},
                     { text:'历史笔记',link:'/frontendframe/historynotes'},
+                    { text:'手撕vue源码系列',link:'/frontendframe/手撕vue源码-01'},
+                    { text:'VUE开发实践笔记',link:'/frontendframe/VUE开发实践笔记'},
                     { text:'待更新',link:'/frontendframe/blank'},
                 ]
             },
