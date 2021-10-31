@@ -873,4 +873,16 @@ for (var i = 0; i < _this.patrolPeople.length; i++) {
 ```
 
 
+## js 数组对象 以某一对象 排序
+
+this.tableData.sort(this.compare('formateDate'))
+compare(property){  
+    return function(a,b){
+        var value1 = a[property];
+        var value2 = b[property];
+        return value2 - value1;
+    }
+}
+
+
 
